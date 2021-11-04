@@ -10,7 +10,7 @@ geduer@gdk8:~/projects/geled$ ./geled \
 GDK8-geled向你问好!\
 missing arguments\
 geled: a utility to talk with LED on GDK8\
-        geled <cmd> [filename]\
+        geled \<cmd\> [para] [filename]\
         c <4 chars to display>\
         f - turn off\
         n - turn on\
@@ -25,4 +25,4 @@ ioctl returne 0, errno 0\
 geduer@gdk8:~/projects/geled$ sudo ./geled n\
 GDK8-geled向你问好!\
 device is opened with fd = 3\
-ioctl returne 0, errno 0\
+ioctl returne 0, errno 0
